@@ -1,0 +1,124 @@
+.navbar-brand {
+	
+	font-weight: 700;
+	font-family: 'Dancing Script', cursive;
+}
+.row-header{
+  margin:0px auto;
+  padding:0px ;
+}
+h1.row-header{
+  color: #E18514;
+  text-align: left;
+  margin:0px ;
+}
+.navbar-dark .navbar-nav .nav-link.hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #E18514;
+}
+.navbar-dark .navbar-nav  .nav-link.active{
+  color:#DE3C4B;
+}
+div.fib.col-12,div.fib.col-md-7,
+div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-lg-7,div.fib.col-sm-12{
+  padding: 0px;
+  margin:0px;
+}
+div.fib.col-md-7{
+  height:50%;
+}
+div.fib.col-sm-12{
+  height:25%;
+}
+.navbar{
+  padding-left:0px;
+  padding-right:0px;
+}
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+div.jumbotron {
+  padding-left: auto;
+  padding-right: auto;
+  padding-top:92px;
+  padding-bottom: auto;
+  margin:0px auto;
+  background-color: transparent;
+}
+button.navbar-toggler{
+  border:0px;
+  border-style: none;
+}
+button.navbar-toggler.active{
+  border:0px;
+  border-style: none;
+}
+
+
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+  background-color: #E18514;
+}
+
+
+div.fp-tableCell{
+  vertical-align: text-top;
+}
+address{
+  font-size:80%;
+  margin:0px;
+}
+div#header.container{
+  position: relative;
+  z-index: 1000;
+}
+
+div.container-video {
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  vertical-align: center;
+
+}
+div.fib.col-sm-12 div.fib1.container-video{
+  padding-top: 50%;
+}
+div.fib.col-md-5 div.fib2.container-video{
+  padding-top: 50%;
+}
+
+
+
+
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe.fib1 ,.responsive-iframe.fib2,.responsive-iframe.fib3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin:5px;
+}
+
+a.nav-link:hover{
+  color: #DE3C4B;
+}
+
+.section{
+  margin-bottom: 82px;
+}
