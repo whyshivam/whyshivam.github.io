@@ -20,17 +20,12 @@ h1.row-header{
 .navbar-dark .navbar-nav  .nav-link.active{
   color:#DE3C4B;
 }
-div.fib.col-12,div.fib.col-md-7,
+div.fib.col-12,div.fib.col-md-7,div.fib.col-sm-9,div.col-sm-3,
 div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-lg-7,div.fib.col-sm-12{
   padding: 0px;
   margin:0px;
 }
-div.fib.col-md-7{
-  height:50%;
-}
-div.fib.col-sm-12{
-  height:25%;
-}
+
 .navbar{
   padding-left:0px;
   padding-right:0px;
@@ -92,19 +87,42 @@ div.container-video {
   vertical-align: center;
 
 }
-div.fib.col-sm-12 div.fib1.container-video{
-  padding-top: 50%;
+div.fib.col-md-7 div.fib1.container-video{
+  padding-top: 525px;
 }
-div.fib.col-md-5 div.fib2.container-video{
-  padding-top: 50%;
+div.fib.col-md-5 div.container-video{
+  padding-top: 345px;
+}
+div.fib.col-md-6 div.container-video{
+  padding-top: 177.5px;
 }
 
-
-
+@media  (max-width: 768px){
+  div.fib.col-md-7 div.fib1.container-video{
+    padding-top: 325px;
+  }
+  div.fib.col-md-5 div.container-video{
+    padding-top: 250px;
+  }
+  div.fib.col-md-6 div.container-video{
+    padding-top: 125px;
+  } 
+}
+@media  (max-width: 576px){
+  div.fib.col-md-7 div.fib1.container-video{
+    padding-top: 225px;
+  }
+  div.fib.col-md-5 div.container-video{
+    padding-top: 180px;
+  }
+  div.fib.col-md-6 div.container-video{
+    padding-top: 90px;
+  } 
+}
 
 
 /* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe.fib1 ,.responsive-iframe.fib2,.responsive-iframe.fib3 {
+.responsive-iframe.fib1 ,.responsive-iframe.fib2,.responsive-iframe.fib3,.repsonse-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -114,6 +132,17 @@ div.fib.col-md-5 div.fib2.container-video{
   height: 100%;
   margin:5px;
 }
+
+img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  vertical-align: center;
+  width: 100%;
+  height: 100%;
+
+}*/
 
 a.nav-link:hover{
   color: #DE3C4B;
