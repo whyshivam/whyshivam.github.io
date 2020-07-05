@@ -20,6 +20,7 @@ h1.row-header{
 .navbar-dark .navbar-nav  .nav-link.active{
   color:#DE3C4B;
 }
+
 div.fib.col-12,div.fib.col-md-7,div.fib.col-sm-9,div.col-sm-3,
 div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-lg-7,div.fib.col-sm-12{
   padding: 0px;
@@ -42,14 +43,24 @@ div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-
   margin:0px auto;
   padding: 20px 0px 20px 0px;
 }
+body.fp-viewing-1-0 #menu .first{
+  background-color: #DE3C4B;
+}
+
+
 div.jumbotron {
   padding-left: auto;
   padding-right: auto;
-  padding-top:92px;
-  padding-bottom: auto;
+  margin-bottom:92px;
+  vertical-align: center;
   margin:0px auto;
   background-color: transparent;
 }
+div.fp-tableCell{
+  vertical-align: middle;
+  padding-bottom:82px;
+} 
+
 button.navbar-toggler{
   border:0px;
   border-style: none;
@@ -67,13 +78,7 @@ button.navbar-toggler.active{
   background-color: #E18514;
 }
 
-body.fp-viewing-1-0 #menu .first{
-  background-color: #DE3C4B;
-}
 
-div.fp-tableCell{
-  vertical-align: text-top;
-}
 address{
   font-size:80%;
   margin:0px;
@@ -99,6 +104,10 @@ div.fib.col-md-5 div.container-video{
 div.fib.col-md-6 div.container-video{
   padding-top: 24.227vh;
 }
+div.fib p{
+  font-size: 1.8em;
+  font-weight: 100;
+}
 
 @media  (max-width: 768px){
   div.fib.col-md-7 div.container-video{
@@ -110,6 +119,9 @@ div.fib.col-md-6 div.container-video{
   div.fib.col-md-6 div.container-video{
     padding-top: 17.556vh;
   } 
+  div.fib p{
+    font-size: 1.7em;
+  }
 }
 @media  (max-width: 576px){
   div.fib.col-md-7 div.container-video{
@@ -121,6 +133,9 @@ div.fib.col-md-6 div.container-video{
   div.fib.col-md-6 div.container-video{
     padding-top: 20.5vh;
   } 
+  div.fib p{
+    font-size: 1.3em;
+  }
 }
 div.pic{
   min-height: 0;
@@ -188,6 +203,12 @@ div.page-icons a{
   font-size: 1.7em ;
   vertical-align: center;
 }
-div.page-icons a:hover{
+a.connect-icons{
+  color : rgba(255,255,255,.5);
+  font-size: 1.3em ;
+  vertical-align: center;
+}
+div.page-icons a:hover,a.connect-icons:hover{
   color: #DE3C4B;
+  text-decoration: none;
 }

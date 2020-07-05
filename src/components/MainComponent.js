@@ -54,7 +54,7 @@ class FullpageWrapper extends React.Component {
 
             <React.Fragment>
               <div className="fullpage-wrapper">
-                <div className="section" data-anchor="home" ><Home /></div>
+                <div id="home" className="section" data-anchor="home" ><Home /></div>
                 <div className="section" data-anchor="work" ><Work /></div>
                 <div className="section" data-anchor="about" ><About /></div>
                 <div className="section" data-anchor="photo" ><Photo /></div>
