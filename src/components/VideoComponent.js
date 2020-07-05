@@ -1,6 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import {Row,Col} from 'reactstrap';
+//import {Row,Col} from 'reactstrap';
 // @ts-ignore
 function Video(props) {
  return(
@@ -8,7 +8,7 @@ function Video(props) {
     <div className="row row-header">
     <div className="fib col-6"><h1 className="row-header" >Video</h1></div>
                 <div className="fib col-6 page-icons" style={{textAlign:"right"}}>
-                    <a className="header-icons" target="_blank" href="https://www.youtube.com/user/cineseciitr/featured">
+                    <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/cineseciitr/featured">
                         <i className="fa fa-youtube-play"/>
                     </a>
                 </div>

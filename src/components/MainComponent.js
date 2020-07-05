@@ -6,7 +6,7 @@ import Video from './VideoComponent';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import About from './AboutComponent';
-import { Switch, Route, Redirect } from 'react-router-dom';
+//import { Switch, Route, Redirect } from 'react-router-dom';
 
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";

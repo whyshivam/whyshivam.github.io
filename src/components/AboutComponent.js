@@ -1,15 +1,16 @@
 import React from 'react';
 
+
 function About(props) {
     return (
         <div className="container page">
             <div className="row row-header">
                 <div className="fib col-6"><h1 className="row-header" >About</h1></div>
                 <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>
-                    <a className="header-icons" target="_blank" href="https://instagram.com/whyshivam">
+                    <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://instagram.com/whyshivam">
                         <i className="fa fa-instagram" />
                     </a>
-                    <a className="header-icons" target="_blank" href="https://www.twitter.com/whyshivam">
+                    <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://www.twitter.com/whyshivam">
                         <i className="fa fa-twitter" />
                     </a>
                 </div>

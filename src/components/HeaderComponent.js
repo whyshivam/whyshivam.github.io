@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import { Navbar, NavLink, NavbarBrand, Nav, NavbarToggler, NavItem, Jumbotron, Collapse } from 'reactstrap';
+import React, { Component } from 'react';
+import { Navbar, NavLink, NavbarBrand, Nav, NavbarToggler, NavItem, Collapse } from 'reactstrap';
 
 class Header extends Component {
     constructor(props) {

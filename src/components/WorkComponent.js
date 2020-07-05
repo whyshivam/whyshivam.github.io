@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+//import { Row, Col } from 'reactstrap';
 const datas = [
    "Worked as a web development intern for this budding MSME"
    ,
@@ -16,10 +16,10 @@ function Header() {
          <div className="row row-header">
             <div className="fib col-6"><h1 className="row-header" >Work</h1></div>
             <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>
-               <a className="header-icons" target="_blank" href="https://linkedin.com/in/shivam-kr-vatsa/">
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/shivam-kr-vatsa/">
                   <i className="fa fa-linkedin" />
                </a>
-               <a className="header-icons" target="_blank" href="https://github.com/whyshivam">
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://github.com/whyshivam">
                   <i className="fa fa-github" />
                </a>
             </div>
@@ -33,24 +33,24 @@ function SlideData1() {
       <div className="fib col-12 row ">
          <div className="fib col-md-7  col-sm-12"  >
             <div className="container-video fib1 pic">
-               <a href="#work/slide1"><img src="/images/work/fib1.png" /></a>
+               <a href="#work/slide1"><img alt="pic" src="/images/work/fib1.png" /></a>
             </div>
          </div>
          <div className="fib col-md-5 col-sm-12 row" >
             <div className="fib col-md-12 col-sm-9">
                <div className=" container-video fib1 pic">
-                  <a href='#work/slide2'><img src="/images/work/fib2.png" /></a>
+                  <a href='#work/slide2'><img alt="pic" src="/images/work/fib2.png" /></a>
                </div>
             </div>
             <div className="fib col-md-12 col-sm-3 row">
                <div className="fib col-md-6 col-sm-12" >
                   <div className="container-video fib1 pic">
-                     <a href="#work/slide3"><img src="/images/work/fib3.png" /></a>
+                     <a href="#work/slide3"><img alt="pic" src="/images/work/fib3.png" /></a>
                   </div>
                </div>
                <div className="fib col-md-6 col-sm-12" >
                   <div className="container-video fib1 pic">
-                     <a href="#work/slide4"><img src="/images/work/fib4.png" /></a>
+                     <a href="#work/slide4"><img alt="pic" src="/images/work/fib4.png" /></a>
                   </div>
                </div>
             </div>
@@ -67,7 +67,7 @@ function SlideData(index) {
       <div className="fib col-12 row" >
          <div className="fib col-md-7  col-sm-12"  >
             <div className="container-video fib1 pi">
-               <img src={url} />
+               <img alt="pic" src={url} />
             </div>
          </div>
          <div className="fib col-md-5 col-sm-12">
