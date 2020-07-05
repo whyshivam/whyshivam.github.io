@@ -45,18 +45,21 @@ div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-
 body.fp-viewing-1-0 #menu .first{
   background-color: #DE3C4B;
 }
-
+div.fullpage-wrapper{
+  position: absolute;
+  top:-41px;
+  
+}
 div.fp-tableCell{
-  vertical-align: top;
+  vertical-align: middle;
   padding-top:0px ;
   height:auto !important;
 } 
 
 div.container.page{
   padding-bottom:10px;
-  padding-top:0px;
+  padding-top:82px;
 }
-
 
 button.navbar-toggler{
   border:0px;
@@ -72,13 +75,13 @@ button.navbar-toggler.active{
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li:hover a.active span,
 .fp-slidesNav ul li a.active span {
-  background-color: #E18514;
+  background-color: #DE3C4B;
 }
 div.fp-slidesNav.fp-bottom{
-  z-index: 150;
+  z-index: 20;
   position: absolute;
   text-align: center;
-  top:10px;
+  bottom:2.5vh;
   align-content: center;
 }
 
@@ -199,11 +202,13 @@ a:-webkit-any-link:active{
 /*--------------------------------*/
 div.page-icons{
   letter-spacing:10px ;
+  
 }
 div.page-icons a{
   color : rgba(255,255,255,.5);
   font-size: 1.7em ;
   vertical-align: center;
+  z-index: 50;
 }
 a.connect-icons{
   color : rgba(255,255,255,.5);

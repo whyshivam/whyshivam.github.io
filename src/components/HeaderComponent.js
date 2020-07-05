@@ -28,7 +28,7 @@ class Header extends Component {
             <React.Fragment>
                 <div className="container" id="header">
                     <Navbar id="menu" dark center expand="md">
-                        <NavbarBrand className="mr-auto" href="/"><h1>shivam</h1></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="#home"><h1>shivam</h1></NavbarBrand>
 
                         <NavbarToggler right onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar className="justify-content-end">
