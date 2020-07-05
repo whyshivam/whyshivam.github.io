@@ -39,7 +39,6 @@ class FullpageWrapper extends React.Component {
       <ReactFullpage
         autoScrolling={true}
         scrollOverflow={true}
-        slidesNavigation={true}
         licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
         callbacks={[this.onLeave]}
         navigation={true}
@@ -48,6 +47,9 @@ class FullpageWrapper extends React.Component {
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         scrollingSpeed={700}
+        controlArrows={false}
+        slidesNavigation={true}
+        
 
         render={({ state, fullpageApi }) => {
           return (

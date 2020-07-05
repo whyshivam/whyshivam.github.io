@@ -2,7 +2,7 @@ import React from 'react';
 
 function About(props) {
     return (
-        <div className="container">
+        <div className="container page">
             <div className="row row-header">
                 <div className="fib col-6"><h1 className="row-header" >About</h1></div>
                 <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>

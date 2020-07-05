@@ -3,7 +3,7 @@ import { Breadcrumb, BreadcrumbItem } from 'reactstrap'
 import { Link } from 'react-router-dom';
 function Connect(props) {
     return (
-        <div className="container">
+        <div className="container page">
             <div className="row row-header">
             <div className="fib col-6"><h1 className="row-header" >Contact</h1></div>
                 <div className="fib col-6 page-icons" style={{textAlign:"right"}}>
