@@ -4,9 +4,15 @@ function Photo(props) {
  return(
    <div className="container">
    <div className="row row-header">
-      <div className="fib col-12">
-         <h1 className="row-header" >Photo</h1>
-      </div>
+   <div className="fib col-6"><h1 className="row-header" >Photo</h1></div>
+                <div className="fib col-6 page-icons" style={{textAlign:"right"}}>
+                    <a className="header-icons" target="_blank" href="https://instagram.com/whyshivam">
+                        <i className="fa fa-instagram"/>
+                    </a>
+                    <a className="header-icons" target="_blank" href="https://www.flickr.com/photos/188692070@N04/">
+                        <i className="fa fa-flickr"/>
+                    </a>
+                </div>
 
       <div className="fib col-md-7  col-sm-12"  >
          <div className="container-video fib1 pic">

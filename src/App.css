@@ -3,7 +3,7 @@
 	font-weight: 700;
 	font-family: 'Dancing Script', cursive;
 }
-.row-header{
+.row-header, div.fib.col-6{
   margin:0px auto;
   padding:0px ;
 }
@@ -158,7 +158,7 @@ img{
   width:100%;
   vertical-align:top;
 }
-.pic:after {
+.pic:after{
   content:'\A';
   position:absolute;
   width:100%; height:100%;
@@ -168,7 +168,7 @@ img{
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
-.pic:hover:after {
+.pic:hover:after{
   opacity:1;
 }
 
@@ -178,4 +178,16 @@ a:-webkit-any-link:active{
 
 .section{
   margin-bottom: 82px;
+}
+
+div.page-icons{
+  letter-spacing:10px ;
+}
+div.page-icons a{
+  color : rgba(255,255,255,.5);
+  font-size: 1.7em ;
+  vertical-align: center;
+}
+div.page-icons a:hover{
+  color: #DE3C4B;
 }

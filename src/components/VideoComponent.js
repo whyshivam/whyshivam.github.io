@@ -6,9 +6,12 @@ function Video(props) {
  return(
     <div className="container">
     <div className="row row-header">
-       <div className="fib col-12">
-          <h1 className="row-header" >Video</h1>
-       </div>
+    <div className="fib col-6"><h1 className="row-header" >Video</h1></div>
+                <div className="fib col-6 page-icons" style={{textAlign:"right"}}>
+                    <a className="header-icons" target="_blank" href="https://www.youtube.com/user/cineseciitr/featured">
+                        <i className="fa fa-youtube-play"/>
+                    </a>
+                </div>
        <div className="fib col-md-7  col-sm-12"  >
           <div className="container-video fib1">
              <iframe className="responsive-iframe fib1" src="https://www.youtube.com/embed/tkJWtLKRVQA" 
