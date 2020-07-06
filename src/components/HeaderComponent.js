@@ -15,11 +15,6 @@ class Header extends Component {
         });
     }
 
-
-
-
-
-
     render() {
 
         //<></>-----<React.Fragement></React.Fragment>
@@ -63,7 +58,7 @@ class Header extends Component {
                                         Video
                                 </NavLink>
                                 </NavItem>
-                                
+
                             </Nav>
                         </Collapse>
                     </Navbar>

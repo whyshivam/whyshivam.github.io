@@ -278,6 +278,10 @@ a.connect-icons{
   font-size: 1em ;
   vertical-align: center;
 }
+div.connect-icons-content{
+  margin:0px;
+  padding:0px;
+}
 div.page-icons a:hover,a.connect-icons:hover{
   color: #DE3C4B;
   text-decoration: none;
