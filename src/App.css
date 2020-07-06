@@ -275,7 +275,7 @@ div.page-icons a{
 }
 a.connect-icons{
   color : rgba(255,255,255,.5);
-  font-size: 1.3em ;
+  font-size: 1em ;
   vertical-align: center;
 }
 div.page-icons a:hover,a.connect-icons:hover{
@@ -297,4 +297,14 @@ div.footer-note{
 div.row-footer p{
   text-align: center;
   color: #DE3C4B;
+}
+div.row-footer a{
+  color : rgba(255,255,255,.5);
+  font-size: 1.3em ;
+  vertical-align: center;
+}
+div.row-footer a:hover{
+  color: #DE3C4B;
+ 
+  text-decoration: none;
 }

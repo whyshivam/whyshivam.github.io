@@ -33,11 +33,11 @@ class FullpageWrapper extends React.Component {
       // @ts-ignore
       <ReactFullpage
         autoScrolling={true}
-        scrollOverflow={false}
+        scrollOverflow={true}
         licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
         callbacks={[this.onLeave]}
         navigation={true}
-        navigationToolTips={['Home', 'Work', 'About', 'Photo', 'Video', 'Connect']}
+        navigationToolTips={['Home', 'Work', 'About', 'Photo', 'Connect','Video']}
         showActiveTooltip={true}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
@@ -55,8 +55,9 @@ class FullpageWrapper extends React.Component {
                 <div className="section" data-anchor="work" ><Work /></div>
                 <div className="section" data-anchor="about" ><About /></div>
                 <div className="section" data-anchor="photo" ><Photo /></div>
-                <div className="section" data-anchor="video" ><Video /></div>
                 <div className="section" data-anchor="connect" ><Connect /></div>
+                <div className="section" data-anchor="video" ><Video /></div>
+                
               </div>
             </React.Fragment>
 

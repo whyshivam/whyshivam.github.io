@@ -53,16 +53,17 @@ class Header extends Component {
                                         Photo
                                 </NavLink>
                                 </NavItem>
-                                <NavItem data-menuanchor="video">
-                                    <NavLink className="nav-link" href="#video" >
-                                        Video
-                                </NavLink>
-                                </NavItem>
                                 <NavItem data-menuanchor="connect">
                                     <NavLink className="nav-link" href="#connect" >
                                         Connect
                                 </NavLink>
                                 </NavItem>
+                                <NavItem data-menuanchor="video">
+                                    <NavLink className="nav-link" href="#video" >
+                                        Video
+                                </NavLink>
+                                </NavItem>
+                                
                             </Nav>
                         </Collapse>
                     </Navbar>

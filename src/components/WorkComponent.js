@@ -172,25 +172,25 @@ function Work(props) {
                <SlideData1 />
             </div>
          </div>
-         <div className="row row-header slide">
+         <div className="row row-header slide" data-anchor="slide1">
             <div className="container page">
                <Header1/>
                <SlideData index={1} />
             </div>
          </div>
-         <div className="row row-header slide">
+         <div className="row row-header slide" data-anchor="slide2">
             <div className="container page">
                <Header2/>
                <SlideData index={2}/>
             </div>
          </div>
-         <div className="row row-header slide">
+         <div className="row row-header slide" data-anchor="slide3">
             <div className="container page">
                <Header3/>
                <SlideData index={3}/>
             </div>
          </div>
-         <div className="row row-header slide">
+         <div className="row row-header slide" data-anchor="slide4">
             <div className="container page">
                <Header4/>
                <SlideData index={4}/>

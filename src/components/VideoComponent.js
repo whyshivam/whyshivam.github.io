@@ -11,6 +11,9 @@ function Video(props) {
                     <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/cineseciitr/featured">
                         <i className="fa fa-youtube-play"/>
                     </a>
+                    <a className="header-icons" href="#home">
+                            <i className="fa fa-chevron-up" />
+                        </a>
                 </div>
        <div className="fib col-md-7  col-sm-12"  >
           <div className="container-video fib1">
