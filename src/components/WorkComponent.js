@@ -72,7 +72,7 @@ function Header3() {
    return (
       <React.Fragment>
          <div className="row row-header">
-            <div className="fib col-6"><h1 className="row-header-slide" >KredEx</h1></div>
+            <div className="fib col-6"><h1 className="row-header-slide" >KredX</h1></div>
             <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>
                <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://www.esummit.in/">
                   <i className="fa fa-external-link" />
