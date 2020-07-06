@@ -47,20 +47,29 @@ div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-
 body.fp-viewing-1-0 #menu .first{
   background-color: #DE3C4B;
 }
+div.container.work{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 div.fullpage-wrapper{
   position: absolute;
   top:0px;
-  
 }
-div.fp-tableCell{
-  vertical-align: middle;
-  padding-top:82px ;
-  height:auto !important;
+div.section{
+  padding-top: 0px;
 } 
+div.fp-tableCell{
+  padding-top:82px ;
+  padding-bottom:10px ;
+  
+  overflow: hidden;
+  height: 100% !important;
+}
 
 div.container.page{
-  padding-bottom:10px;
+  padding-bottom:0px;
   padding-top:0px;
+  
 }
 
 button.navbar-toggler{
@@ -139,23 +148,23 @@ div.fib p{
     padding-top: 45.646vh;
   }
   div.fib.col-md-5 div.container-video{
-    padding-top: 35.112vh;
+    padding-top: 35vh;
   }
   div.fib.col-md-6 div.container-video{
-    padding-top: 17.556vh;
+    padding-top: 17.565vh;
   } 
   
   
 }
 @media  (max-width: 576px){
   div.fib.col-md-7 div.container-video{
-    padding-top: 20.5vh;
+    padding-top: 20vh;
   }
   div.fib.col-md-5 div.container-video{
-    padding-top: 20.5vh;
+    padding-top: 20vh;
   }
   div.fib.col-md-6 div.container-video{
-    padding-top: 20.5vh;
+    padding-top: 20vh;
   } 
   div.fib.col-md-7 div.container-video.pi{
     padding-top: 40vh ;
@@ -163,13 +172,13 @@ div.fib p{
 }
 @media (max-width: 425 px){
   div.fib.col-md-7 div.container-video{
-    padding-top: 16.5vh;
+    padding-top: 16vh;
   }
   div.fib.col-md-5 div.container-video{
-    padding-top: 16.5vh;
+    padding-top: 16vh;
   }
   div.fib.col-md-6 div.container-video{
-    padding-top: 16.5vh;
+    padding-top: 16vh;
   } 
   div.fib.col-md-7 div.container-video.pi{
     padding-top: 40vh ;
@@ -177,13 +186,13 @@ div.fib p{
 }
 @media (max-width:375 px){
   div.fib.col-md-7 div.container-video{
-    padding-top: 10.5vh;
+    padding-top: 10vh;
   }
   div.fib.col-md-5 div.container-video{
-    padding-top: 10.5vh;
+    padding-top: 10vh;
   }
   div.fib.col-md-6 div.container-video{
-    padding-top: 10.5vh;
+    padding-top: 10vh;
   } 
   div.fib.col-md-7 div.container-video.pi{
     padding-top: 40vh ;
@@ -205,8 +214,9 @@ div.pic, div.pi{
   right: 0;
   width: 100%;
   height: 100%;
+}
+iframe{
   padding:5px;
-  overflow: hidden;
 }
 
 img{

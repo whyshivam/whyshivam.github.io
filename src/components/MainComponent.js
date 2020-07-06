@@ -33,7 +33,7 @@ class FullpageWrapper extends React.Component {
       // @ts-ignore
       <ReactFullpage
         autoScrolling={true}
-        scrollOverflow={true}
+        scrollOverflow={false}
         licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
         callbacks={[this.onLeave]}
         navigation={true}
