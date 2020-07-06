@@ -39,6 +39,10 @@ div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-
   border-bottom: 1px ridge;
   min-height:400px;
 }
+.row-full{
+ 
+  margin:0px;
+}
 
 .footer{
   margin:0px auto;
@@ -50,18 +54,19 @@ body.fp-viewing-1-0 #menu .first{
 div.container.work{
   padding-left: 0px;
   padding-right: 0px;
+  height:100%
 }
 div.fullpage-wrapper{
   position: absolute;
   top:0px;
 }
 div.section{
-  padding-top: 0px;
+  padding-top:0px ;
 } 
 div.fp-tableCell{
-  padding-top:82px ;
+  padding-top: 82px;
   padding-bottom:10px ;
-  
+  vertical-align: middle;
   overflow: hidden;
   height: 100% !important;
 }
@@ -70,6 +75,7 @@ div.container.page{
   padding-bottom:0px;
   padding-top:0px;
   
+  overflow: hidden;
 }
 
 button.navbar-toggler{
@@ -92,7 +98,7 @@ div.fp-slidesNav.fp-bottom{
   z-index: 20;
   position: absolute;
   text-align: center;
-  bottom:2.5vh;
+  bottom:0px;
   align-content: center;
 }
 
@@ -158,13 +164,13 @@ div.fib p{
 }
 @media  (max-width: 576px){
   div.fib.col-md-7 div.container-video{
-    padding-top: 20vh;
+    padding-top: 15vh;
   }
   div.fib.col-md-5 div.container-video{
-    padding-top: 20vh;
+    padding-top: 15vh;
   }
   div.fib.col-md-6 div.container-video{
-    padding-top: 20vh;
+    padding-top: 15vh;
   } 
   div.fib.col-md-7 div.container-video.pi{
     padding-top: 40vh ;
@@ -172,13 +178,13 @@ div.fib p{
 }
 @media (max-width: 425 px){
   div.fib.col-md-7 div.container-video{
-    padding-top: 16vh;
+    padding-top: 10vh;
   }
   div.fib.col-md-5 div.container-video{
-    padding-top: 16vh;
+    padding-top: 10vh;
   }
   div.fib.col-md-6 div.container-video{
-    padding-top: 16vh;
+    padding-top: 10vh;
   } 
   div.fib.col-md-7 div.container-video.pi{
     padding-top: 40vh ;
@@ -186,13 +192,13 @@ div.fib p{
 }
 @media (max-width:375 px){
   div.fib.col-md-7 div.container-video{
-    padding-top: 10vh;
+    padding-top: 7vh;
   }
   div.fib.col-md-5 div.container-video{
-    padding-top: 10vh;
+    padding-top: 7vh;
   }
   div.fib.col-md-6 div.container-video{
-    padding-top: 10vh;
+    padding-top: 7vh;
   } 
   div.fib.col-md-7 div.container-video.pi{
     padding-top: 40vh ;
