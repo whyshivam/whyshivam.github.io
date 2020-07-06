@@ -1,14 +1,18 @@
 import React from 'react';
 //import { Row, Col } from 'reactstrap';
 const datas = [
-   "Worked as a web development intern for this budding MSME"
-   ,
-
-   "Completed the project in field of seld driving car"
-   ,
-   "Did Good Work here"
-   ,
-   "Awesome jobs here are done with great intentions. Highly appreciated in this regards"
+   {
+      data:"Worked as a web developer intern for formulating interactive landing pages for Nanotech, which provides web solutions. "
+   },
+   {
+      data:"The project is to design and program a functional model of a self-driving car. The model is based on OpenCV-Python and operated on Rasberry Pi, a webcam, and ultrasonic sensors."
+   },
+   {
+      data:"Worked for KredX, to solve the export financing problem, after getting shortlisted in Case Challenge, E-Summit, 2020."
+   },
+   {
+      data:"Worked as a Software Research Intern to analyze the market development strategies for technological advancement in the fields of AI."
+   }
 ];
 function Header() {
    return (
@@ -27,6 +31,84 @@ function Header() {
       </React.Fragment>
    );
 }
+function Header1() {
+   return (
+      <React.Fragment>
+         <div className="row row-header">
+            <div className="fib col-6"><h1 className="row-header-slide" >Nanotech</h1></div>
+            <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://nspl.co.in">
+                  <i className="fa fa-external-link" />
+               </a>
+               <a className="header-icons" href="#work">
+                  <i className="fa fa-chevron-left" />
+               </a>
+            </div>
+         </div>
+      </React.Fragment>
+   );
+}
+function Header2() {
+   return (
+      <React.Fragment>
+         <div className="row row-header">
+            <div className="fib col-6"><h1 className="row-header-slide" >ArIES</h1></div>
+            <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/ariesiitr">
+                  <i className="fa fa-facebook" />
+               </a>
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://github.com/whyshivam/python-selfDriving">
+                  <i className="fa fa-github" />
+               </a>
+               <a className="header-icons" href="#work">
+                  <i className="fa fa-chevron-left" />
+               </a>
+            </div>
+         </div>
+      </React.Fragment>
+   );
+}
+function Header3() {
+   return (
+      <React.Fragment>
+         <div className="row row-header">
+            <div className="fib col-6"><h1 className="row-header-slide" >KredEx</h1></div>
+            <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://www.esummit.in/">
+                  <i className="fa fa-external-link" />
+               </a>
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="https://www.kredx.com/">
+                  <i className="fa fa-external-link" />
+               </a>
+               <a className="header-icons" href="#work">
+                  <i className="fa fa-chevron-left" />
+               </a>
+            </div>
+         </div>
+      </React.Fragment>
+   );
+}
+function Header4() {
+   return (
+      <React.Fragment>
+         <div className="row row-header">
+            <div className="fib col-6"><h1 className="row-header-slide" >IIBM</h1></div>
+            <div className="fib col-6 page-icons" style={{ textAlign: "right" }}>
+               <a className="header-icons" rel="noopener noreferrer" target="_blank" href="http://www.iibm.in/">
+                  <i className="fa fa-external-link" />
+               </a>
+               <a className="header-icons" href="#work">
+                  <i className="fa fa-chevron-left" />
+               </a>
+            </div>
+         </div>
+      </React.Fragment>
+   );
+}
+
+
+
+
 function SlideData1() {
    
    return (
@@ -62,7 +144,7 @@ function SlideData1() {
 function SlideData(index) {
    const i = parseInt(index.index);
    const url = "/images/work/fib" + i + ".png";
-   const data = datas[i - 1];
+   const data = datas[i-1].data;
    return (
       <div className="fib col-12 row" >
          <div className="fib col-md-7  col-sm-12"  >
@@ -71,9 +153,11 @@ function SlideData(index) {
             </div>
          </div>
          <div className="fib col-md-5 col-sm-12">
-            <p className="slide-content page">
+            <div className="fib slide-content page">
+            <p  className="middle slide-content page" >
                {data}
             </p>
+            </div>
          </div>
       </div>
    );
@@ -87,19 +171,19 @@ function Work(props) {
             <SlideData1 />
          </div>
          <div className="row row-header slide" data-anchor='slide1'>
-            <Header />
+            <Header1 />
             <SlideData index="1" />
          </div>
          <div className="row row-header slide" data-anchor='slide2'>
-            <Header />
+            <Header2 />
             <SlideData index="2" />
          </div>
          <div className="row row-header slide" data-anchor='slide3'>
-            <Header />
+            <Header3 />
             <SlideData index="3" />
          </div>
          <div className="row row-header slide" data-anchor='slide4'>
-            <Header />
+            <Header4 />
             <SlideData index="4" />
          </div>
       </div>

@@ -11,10 +11,6 @@ import About from './AboutComponent';
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
 
-
-
-
-
 class FullpageWrapper extends React.Component {
   onLeave(origin, destination, direction) {
     console.log("Leaving section " + origin.index);
@@ -27,7 +23,6 @@ class FullpageWrapper extends React.Component {
       activeItem
         .addClass('active')
         .siblings().removeClass('active');
-
       return (activeItem);
     };*/
    
