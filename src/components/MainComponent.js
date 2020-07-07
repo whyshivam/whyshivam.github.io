@@ -6,6 +6,7 @@ import Video from './VideoComponent';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import About from './AboutComponent';
+import $ from 'jquery';
 //import { Switch, Route, Redirect } from 'react-router-dom';
 
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
@@ -17,15 +18,14 @@ class FullpageWrapper extends React.Component {
   }
   afterLoad(origin, destination, direction) {
     console.log("After load: " + destination.index);
-    /*function () {
-      var activeItem = ('#myPages').find('li').first();
-      console.log('Active is ' + activeItem)
-      activeItem
+      /*var activeId= "#slide"+destination.index;
+      activeId=activeId.find(a);
+      //var activeItem = ('#myPages').find('li').first();
+      console.log('Active is ' + activeId)
+      activeId
         .addClass('active')
         .siblings().removeClass('active');
-      return (activeItem);
-    };*/
-   
+      return (activeId);*/
   }
 
   render() {

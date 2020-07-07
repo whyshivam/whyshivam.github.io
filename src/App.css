@@ -1,5 +1,5 @@
+/*------------------Nav NavBAR--------------------------*/
 .navbar-brand {
-	
 	font-weight: 700;
 	font-family: 'Dancing Script', cursive;
 }
@@ -7,12 +7,9 @@
   margin:0px auto;
   padding:0px ;
 }
-h1.row-header{
-  color: #E18514;
-  margin:0px ;
-}
-h1.row-header-slide{
-  color: #DE3C4B;
+#myPages{
+  background-color: #000022;
+  opacity: 80%;
 }
 .navbar-dark .navbar-nav .nav-link.hover{
   cursor: pointer;
@@ -22,62 +19,10 @@ h1.row-header-slide{
 .navbar-dark .navbar-nav  .nav-link.active{
   color:#DE3C4B;
 }
-
-div.fib.col-12,div.fib.col-md-7,div.fib.col-sm-9,div.col-sm-3,
-div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-lg-7,div.fib.col-sm-12{
-  padding: 0px;
-  margin:0px;
-}
-
 .navbar{
   padding-left:0px;
   padding-right:0px;
 }
-.row-content {
-  margin:0px auto;
-  padding: 50px 0px 50px 0px;
-  border-bottom: 1px ridge;
-  min-height:400px;
-}
-.row-full{
- 
-  margin:0px;
-}
-
-.footer{
-  margin:0px auto;
-  padding: 20px 0px 20px 0px;
-}
-body.fp-viewing-1-0 #menu .first{
-  background-color: #DE3C4B;
-}
-div.container.work{
-  padding-left: 0px;
-  padding-right: 0px;
-  height:100%
-}
-div.fullpage-wrapper{
-  position: absolute;
-  top:0px;
-}
-div.section{
-  padding-top:0px ;
-} 
-div.fp-tableCell{
-  padding-top: 82px;
-  padding-bottom:10px ;
-  vertical-align: middle;
-  overflow: hidden;
-  height: 100% !important;
-}
-
-div.container.page{
-  padding-bottom:0px;
-  padding-top:0px;
-  
-  overflow: hidden;
-}
-
 button.navbar-toggler{
   border:0px;
   border-style: none;
@@ -86,8 +31,81 @@ button.navbar-toggler.active{
   border:0px;
   border-style: none;
 }
+#header{
+  position: fixed;
+  z-index: 1000;
+  height:82px;
+  top:0px;
+}
 
-
+/*-------------------General Style-----------------------*/
+h1.row-header{
+  color: #E18514;
+  margin:0px ;
+}
+h1.row-header-slide{
+  color: #DE3C4B;
+}
+div.fib.col-12,div.fib.col-md-7,div.fib.col-sm-9,div.col-sm-3,
+div.fib.col-lg-6,div.fib.col-md-6,div.fib.col-md-5,div.fib.col-lg-5,div.fib.col-lg-7,div.fib.col-sm-12{
+  padding: 0px;
+  margin:0px;
+}
+.highlight{
+  color:#E18514 !important;
+}
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+.row-full{
+  margin:0px;
+}
+/*--------------------------Jumbo------------------*/
+span.highlight{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+div.jumbo h1{
+  font-size: 10vw;
+}
+div.jumbo h4{
+  font-size: 3vw ;
+}
+@media (min-width: 1440px){
+  div.jumbo h1{
+    font-size: 8vw;
+  }
+  div.jumbo h4{
+    font-size: 2.4vw ;
+  }
+}
+@media (min-width: 1800px){
+  div.jumbo h1{
+    font-size: 6vw;
+  }
+  div.jumbo h4{
+    font-size: 1.8vw ;
+  }
+}
+div.container.work{
+  padding-left: 0px;
+  padding-right: 0px;
+  height:100%
+}
+/*---------------------fullpage.js---------------------------*/
+body.fp-viewing-1-0 #menu .first{
+  background-color: #DE3C4B;
+}
+#fullpage{
+  padding-top: 82px;
+}
+div.fullpage-wrapper{
+  position: absolute;
+  top:0px;
+}
 #fp-nav ul li:hover a.active span,
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li:hover a.active span,
@@ -101,21 +119,28 @@ div.fp-slidesNav.fp-bottom{
   bottom:0px;
   align-content: center;
 }
-
+div.section{
+  padding-top:0px ;
+} 
+div.fp-tableCell{
+  padding-top: 82px;
+  padding-bottom:10px ;
+  vertical-align: middle;
+  overflow: hidden;
+  height: 100% !important;
+}
+div.container.page{
+  padding-bottom:0px;
+  padding-top:0px;
+  overflow: hidden;
+}
 address{
   font-size:80%;
   margin:0px;
 }
-#header{
-  position: fixed;
-  z-index: 1000;
-  height:82px;
-  top:0px;
-}
-#fullpage{
-  padding-top: 82px;
-}
 
+
+/*-----------------Fib Box--------------------------------*/
 div.container-video {
   position: relative;
   overflow: hidden;
@@ -123,6 +148,7 @@ div.container-video {
   vertical-align: center;
 
 }
+
 div.fib.col-md-7 div.container-video{
   padding-top: 72.682vh;
 }
@@ -135,8 +161,6 @@ div.fib.col-md-6 div.container-video{
 div.fib p{
   font-weight: 100;
 }
-
-
 @media (min-width: 768px){
   div.fib.slide-content.page{
     display: table;
@@ -148,7 +172,6 @@ div.fib p{
   }
 
 }
-
 @media  (max-width: 768px){
   div.fib.col-md-7 div.container-video{
     padding-top: 45.646vh;
@@ -159,8 +182,6 @@ div.fib p{
   div.fib.col-md-6 div.container-video{
     padding-top: 17.565vh;
   } 
-  
-  
 }
 @media  (max-width: 576px){
   div.fib.col-md-7 div.container-video{
@@ -262,7 +283,7 @@ a:-webkit-any-link:active{
 }
 
 
-/*--------------------------------*/
+/*-------------------------------Page Icon FA----------------------*/
 div.page-icons{
   letter-spacing:10px ;
   
@@ -286,7 +307,7 @@ div.page-icons a:hover,a.connect-icons:hover{
   color: #DE3C4B;
   text-decoration: none;
 }
-
+/*---------------------foot-note-------------------------*/
 div.row-footer{
   width: 100%;
   margin-left: auto;
