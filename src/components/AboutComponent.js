@@ -18,7 +18,7 @@ function About(props) {
                     <p className="Intro light">
                         Competitive Coder, Ecliptic Web Developer, Premiere Programmer, Illustrative Designer. Enthusiast about data structures, algorithms, and solving intense brain puzzles. I find problem-solving
                     and technological advancement enthralling.</p>
-                    <p className="passion-intro">I'm a passionate filmmaker and a struggling guitarist. Maths, Music &amp; Movies are three love of my life. Although I often
+                    <p className="passion-intro">I'm a passionate filmmaker and a struggling guitarist. Although I often
         indulge myself in content writing, travelling and cooking.</p>
                 </div>
 
