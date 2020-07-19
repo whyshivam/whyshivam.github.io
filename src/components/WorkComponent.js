@@ -2,7 +2,7 @@ import React from 'react';
 //import { Row, Col } from 'reactstrap';
 const datas = [
    {
-      data:"Worked as a web developer intern for formulating interactive landing pages for Nanotech, which provides web solutions. "
+      data:"Worked to develop websites for software and web service provider, which also included well-framed landing pages. Designed and programmed interconnected pages for the company for synergistic interconnectivity to the backend."
    },
    {
       data:"The project is to design and program a functional model of a self-driving car. The model is based on OpenCV-Python and operated on Rasberry Pi, a webcam, and ultrasonic sensors."
@@ -11,7 +11,7 @@ const datas = [
       data:"Worked for KredX, to solve the export financing problem, after getting shortlisted in Case Challenge, E-Summit, 2020."
    },
    {
-      data:"Worked as a Software Research Intern to analyze the market development strategies for technological advancement in the fields of AI."
+      data:"Worked rigorously on the research study with the title, Business Project Analysis in Software Development. Focused study for determining the appropriate workflow of software development in compliance with useful strategies.Worked on analyzing market development strategies for technological advancement in the current business scenario."
    }
 ];
 function Header() {
