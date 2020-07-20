@@ -6,7 +6,7 @@ import Video from './VideoComponent';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import About from './AboutComponent';
-import $ from 'jquery';
+
 //import { Switch, Route, Redirect } from 'react-router-dom';
 
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
@@ -51,6 +51,7 @@ class FullpageWrapper extends React.Component {
 
             <React.Fragment>
               <div className="fullpage-wrapper">
+              
                 <div id="home" className="section" data-anchor="home" ><Home /></div>
                 <div className="section" data-anchor="work" ><Work /></div>
                 <div className="section" data-anchor="about" ><About /></div>
