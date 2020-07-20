@@ -5,17 +5,6 @@ object-assign
 */
 
 /*!
-   * Sizzle CSS Selector Engine v2.3.5
-   * https://sizzlejs.com/
-   *
-   * Copyright JS Foundation and other contributors
-   * Released under the MIT license
-   * https://js.foundation/
-   *
-   * Date: 2020-03-14
-   */
-
-/*!
   * Scrolloverflow 2.0.5 module for fullPage.js >= 3
   * https://github.com/alvarotrigo/fullPage.js
   * @license MIT licensed
@@ -43,20 +32,6 @@ object-assign
  * @license https://github.com/alvarotrigo/react-fullpage#license
  *
  * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo & Michael Walker
- */
-
-/*!
- * jQuery JavaScript Library v3.5.1
- * https://jquery.com/
- *
- * Includes Sizzle.js
- * https://sizzlejs.com/
- *
- * Copyright JS Foundation and other contributors
- * Released under the MIT license
- * https://jquery.org/license
- *
- * Date: 2020-05-04T22:49Z
  */
 
 /*!
