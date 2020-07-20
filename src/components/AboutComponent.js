@@ -16,10 +16,10 @@ function About(props) {
                 </div>
                 <div className="fib col-12"  >
                     <p className="Intro light">
-                        😊 Competitive Coder, 😎 Ecliptic Web Developer, 😁 Premiere Programmer, 😜 Illustrative Designer. 🤓 Enthusiast about data structures, ⏰ algorithms, and solving intense 🧠 brain puzzles. I find 🤖 problem-solving
-                    and 🚗 technological advancement 🥳 enthralling 🎉.</p>
-                    <p className="passion-intro">I'm a 😻 passionate 🎥 filmmaker 🎞 and a budding 🎸guitarist 🎶. Although I often
-        indulge myself in ✍ content writing, 🧳 travelling 🛸 and 🍴 cooking 🔪.</p>
+                        Competitive Coder, 😎 Ecliptic Web Developer, Premiere Programmer, Illustrative Designer. Enthusiast about data structures, ⏰ algorithms, and solving intense brain puzzles. I find 🤖 problem-solving
+                    and 🚗 technological advancement enthralling .</p>
+                    <p className="passion-intro">I'm a 😻 passionate filmmaker 🎞 and a budding 🎸guitarist 🎶. Although I often
+        indulge myself in ✍ content writing, 🛸 travelling and 🍴 cooking .</p>
                 </div>
 
             </div>

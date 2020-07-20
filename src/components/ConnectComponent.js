@@ -58,7 +58,7 @@ function Connect(props) {
                 <div className="footer-note">
                     <p style={{ fontSize: "1.2em" }}>
                         <a href="#video" >
-                            Bored?
+                            Like Suprises?
                             <i className="fa fa-chevron-down" /> </a>
                     </p>
                     <p>&copy;2020. Made with <i className="fa fa-heart"></i> by Shivam. Yeah thats me!!</p>
