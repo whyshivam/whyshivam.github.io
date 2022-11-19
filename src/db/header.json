@@ -1,0 +1,29 @@
+{
+    "brand" : "😊",
+    "headers": [
+        {
+            "head": "About",
+            "key": "about"
+        },
+        {
+            "head": "Blog",
+            "key": "blog"
+        },
+        {
+            "head": "Projects",
+            "key": "project"
+        },
+        {
+            "head": "Photography",
+            "key": "photog"
+        },
+        {
+            "head": "Videos",
+            "key": "cine"
+        },
+        {
+            "head": "Contact Me",
+            "key": "contact_me"
+        }
+    ]
+}
