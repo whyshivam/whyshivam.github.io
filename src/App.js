@@ -1,6 +1,8 @@
 import './App.css';
+import "./Components/Components.css";
 import React, {useState} from 'react';
 import HomePage from './Pages/HomePage';
+
 
 function App() {
   const [theme, setTheme] = useState('light');

@@ -3,27 +3,33 @@
     "headers": [
         {
             "head": "About",
-            "key": "about"
+            "key": "about",
+            "loc" : "about.jsonon"
         },
         {
             "head": "Blog",
-            "key": "blog"
+            "key": "blog",
+            "loc" : "blog.json"
         },
         {
             "head": "Projects",
-            "key": "project"
+            "key": "project",
+            "loc" : "project.json"
         },
         {
             "head": "Photography",
-            "key": "photog"
+            "key": "photog",
+            "loc" : "photog.json"
         },
         {
             "head": "Videos",
-            "key": "cine"
+            "key": "cine",
+            "loc" : "vid.json"
         },
         {
             "head": "Contact Me",
-            "key": "contact_me"
+            "key": "contact_me",
+            "loc" : "contact.json"
         }
     ]
 }

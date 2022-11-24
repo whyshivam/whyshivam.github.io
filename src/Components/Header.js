@@ -1,24 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import * as header_data from '../db/header.json';
+// import {NavLink} from "react-router-dom";
+// import * as header_data from '../db/header.json';
 
 
 
-function Header() {
-
-  var headers = header_data.headers
+function Header(props) {
+  const [headers] = useState(props.header_data.default.headers)
+  const [brand] =useState(props.header_data.default.brand)
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href=""><span role="img"> 😊 </span></Navbar.Brand>
+        <Navbar.Brand to=""><span role="img"> {brand} </span></Navbar.Brand>
 
         <Nav className="me-auto">
           {
-            headers.map( elem => {
+            headers.map(elem => {
+              var ref = "#"+elem.key;
               return (
-                <Nav.Link href={elem.key} >{elem.head}</Nav.Link>
+                <Nav.Link href={ref} >{elem.head}</Nav.Link>
               );
 
             })
