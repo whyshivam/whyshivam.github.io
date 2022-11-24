@@ -5,7 +5,7 @@ import PageContent from "../Components/PageContent";
 import * as header_data from '../db/header.json' ;
 
 function HomePage() {
-    const [headers] = useState(header_data)
+    const [headers] = useState(header_data.headers)
     return (
         <div>
 
