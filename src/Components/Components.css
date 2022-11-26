@@ -1,3 +1,13 @@
-.content_container{
-    height: 500px;
+.jumbo_content{
+    background-color: lightblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_content{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
