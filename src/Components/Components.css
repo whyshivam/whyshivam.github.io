@@ -11,3 +11,31 @@
     justify-content: center;
     align-items: center;
 }
+.page_content_flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.page_content_data{
+    flex: 2;   
+}
+.page_content_image  {
+    flex: 1;    
+}
+.page_content_next, .page_content_prev{
+    position: absolute;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(0.6) sepia(1) saturate(0) hue-rotate(-162deg);
+}
+.page_content_next{
+    right: 10px; 
+}
+.page_content_prev{
+    left : 10px;
+    transform: rotate(180deg);
+}
+.page_content_icon{
+    width: 20px;
+}
