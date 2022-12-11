@@ -39,9 +39,11 @@
 }
 
 .light{
-  background-color: #ffffff;
+  background-color: #fdfdfd;
+  color: #282c34;
 }
 
 .dark{
   background-color: #282c34;
+  color: #fdfdfd;
 }
