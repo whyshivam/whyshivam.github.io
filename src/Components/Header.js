@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Switch } from 'antd';
-// import {NavLink} from "react-router-dom";
-// import * as header_data from '../db/header.json';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faMoon} from '@fortawesome/free-solid-svg-icons'
+import {faSun} from '@fortawesome/free-solid-svg-icons'
 
 
 function Header(props) {
@@ -27,20 +26,25 @@ function Header(props) {
 
             })
           }
-         
+
 
 
         </Nav>
         <Nav className='justify-content-end'>
-            <Nav.Link className='theme_container'>
-              Dark Mode
-            </Nav.Link>
-            <div className='theme_container'>
-              <Switch className="theme_switch" onChange={props.toggleTheme}></Switch>
-            </div>
-          </Nav>
+          <Nav.Link className='theme_container'>
+          </Nav.Link>
+          <div className='theme_container'>
+            <input type="checkbox" class="checkbox" id="checkbox" onChange={props.toggleTheme} />
+            <label for="checkbox" class="label">
+              <FontAwesomeIcon icon={faMoon}/>
+              <FontAwesomeIcon icon={faSun}/>
+              <div class='ball' />
+            </label> 
+          </div>
+
+        </Nav>
       </Container>
-      
+
     </Navbar>
   );
 }
