@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faMoon} from '@fortawesome/free-solid-svg-icons'
-import {faSun} from '@fortawesome/free-solid-svg-icons'
+import { faMoon } from '@fortawesome/free-solid-svg-icons'
+import { faSun } from '@fortawesome/free-solid-svg-icons'
 
 
 function Header(props) {
@@ -36,10 +36,10 @@ function Header(props) {
           <div className='theme_container'>
             <input type="checkbox" class="checkbox" id="checkbox" onChange={props.toggleTheme} />
             <label for="checkbox" class="label">
-              <FontAwesomeIcon icon={faMoon}/>
-              <FontAwesomeIcon icon={faSun}/>
+              <FontAwesomeIcon icon={faMoon} />
+              <FontAwesomeIcon icon={faSun} />
               <div class='ball' />
-            </label> 
+            </label>
           </div>
 
         </Nav>

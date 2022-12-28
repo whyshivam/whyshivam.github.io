@@ -1,7 +1,12 @@
-[{
-    "content" : "Hey I am Shivam!! Nice to meet you!!!",
-    "key" : 0
-},{
-    "content" : "I am programmer who like to play guitar make move and photography",
-    "key" : 1
-}]
+[
+    {
+        "content": [
+            "Hey I am Shivam!! Nice to meet you!!!\n",
+            "I am a budding programmer who likes to play guitar,\t",
+            "loves to watch movies and often go around to click some beautiful pictures.\n",
+            ""
+        ],
+        "pics":"",
+        "key": 0
+    }
+]

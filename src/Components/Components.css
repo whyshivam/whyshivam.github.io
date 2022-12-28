@@ -17,16 +17,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 .page_content_flexbox{
     display: flex;
     flex-wrap: nowrap;
 }
+.page_content_data_container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%; 
+}
 .page_content_data{
     flex: 2;   
 }
 .page_content_image  {
-    flex: 1;    
+    flex: 1;   
 }
 .page_content_next, .page_content_prev{
     position: absolute;
