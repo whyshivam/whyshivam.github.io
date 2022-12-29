@@ -4,7 +4,7 @@
             "projectsdsfkmdslfmkdls fsdlf",
             "dfdlskfm klsdmlf"
         ],
-        "pics" : "",
+        "pics" : "../assets/logo.svg",
         "key" : 0
 
     },
@@ -12,7 +12,7 @@
         "content" : [
             "projects"
         ],
-        "pics" : "",
+        "pics" : "../assets/logo.svg",
         "key" : 1
 
     },
@@ -20,7 +20,22 @@
         "content" : [
             ""
         ],
-        "pics" : "",
+        "pics" : "../assets/logo.svg",
+        "key" : 2
+    },
+    {   
+        "content" : [
+            ""
+        ],
+        "pics" : "../assets/logo.svg",
+        "key" : 2
+
+    },
+    {   
+        "content" : [
+            ""
+        ],
+        "pics" : "../assets/logo.svg",
         "key" : 2
 
     }
