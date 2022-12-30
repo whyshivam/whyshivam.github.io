@@ -44,12 +44,10 @@ function PageContent(props) {
                                 if(!imgView){
                                     isHidden = (index!=subPagenum);
                                 }
-                                // var picloc = require(element.pics);
-                                var picloc = require("../assets/logo.svg")
                                 if(index<3)
                                     return (
                                     <div className="page_content_image" hidden={isHidden} onClick={()=>subImageClick(index)}>
-                                        <img src={picloc} alt=""></img>
+                                        <img src={"/assets/"+element.pics} alt=""></img>
                                     </div>);
                             })
                         }
