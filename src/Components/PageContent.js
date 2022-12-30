@@ -9,16 +9,11 @@ function PageContent(props) {
     const [subLen] = useState(datas.length);
     const [subPagenum, setSubPagenum] = useState(0);
     const [imgView, setImgView] = useState(subLen>1)
-    const [subContent, setSubContent] = useState(datas[subPagenum].content) 
     const incrementCount = () => {
-        if(!imgView){
             setSubPagenum((subPagenum + 1) % datas.length);
-        }
     }
     const decrementCount = () => {
-        if(!imgView){
             setSubPagenum((datas.length + subPagenum - 1) % datas.length);
-        }
     }
     const subImageClick =(idx) =>{
         setSubPagenum(idx);
@@ -35,7 +30,7 @@ function PageContent(props) {
                     <div className="page_content_data_container">
                         <div className="page_content_data" hidden={imgView}>
 
-                            {subContent}
+                            {datas[subPagenum].content}
 
                         </div>
                         {
@@ -44,7 +39,8 @@ function PageContent(props) {
                                 if(!imgView){
                                     isHidden = (index!=subPagenum);
                                 }
-                                if(index<3)
+                                var activePage = subPagenum + 3 < subLen? subPagenum : subLen-3;
+                                if(index>=activePage && index<activePage+3)
                                     return (
                                     <div className="page_content_image" hidden={isHidden} onClick={()=>subImageClick(index)}>
                                         <img src={"/assets/"+element.pics} alt=""></img>
