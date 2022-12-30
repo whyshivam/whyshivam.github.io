@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
 }
+/* -------------Page Contetnt Styling ---------------*/
 .page_content{
     min-height: 300px;
     display: flex;
@@ -29,7 +30,7 @@
     width: 100%; 
 }
 .page_content_data{
-    flex: 2;   
+    flex: 2; 
 }
 .page_content_image  {
     flex: 1;   
@@ -52,7 +53,7 @@
 .page_content_icon{
     width: 20px;
 }
-
+/* ------- checkbox theme selector ------------ */
 .checkbox {
     opacity: 0;
     position: absolute;
@@ -83,13 +84,13 @@
 .checkbox:checked + .label .ball{
     transform: translateX(15px);
 }
-.fa-moon {
-    color: pink;
+.fa-moon , .fa-sun {
     width: 10px;
     height: 10px;
 }
+.fa-moon{
+    color: pink;
+}
 .fa-sun {
     color: yellow;
-    width: 10px;
-    height: 10px;
 }

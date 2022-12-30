@@ -8,16 +8,25 @@ function PageContent(props) {
     const [datas] = useState(require('./../db/' + pageloc));
     const [subLen] = useState(datas.length);
     const [subPagenum, setSubPagenum] = useState(0);
-    const [imgView, setImgView] = useState(subLen>1)
+    const [imgView, setImgView] = useState(subLen > 1)
     const incrementCount = () => {
-            setSubPagenum((subPagenum + 1) % datas.length);
+        setSubPagenum((subPagenum + 1) % datas.length);
     }
     const decrementCount = () => {
-            setSubPagenum((datas.length + subPagenum - 1) % datas.length);
+        setSubPagenum((datas.length + subPagenum - 1) % datas.length);
     }
-    const subImageClick =(idx) =>{
+    const subImageClick = (event, idx) => {
+        console.log(event);
         setSubPagenum(idx);
-        setImgView (false); 
+        setImgView(false);
+    }
+    function getPics(activePage) {
+        var picloc = datas[activePage].pics;
+        return (
+            <div className="page_content_image" onClick={(event) => subImageClick(event, activePage)}>
+                <img src={"/assets/" + picloc} alt=""></img>
+            </div>
+        );
     }
     return (
         <div id={pageid} className="page_content ">
@@ -25,7 +34,7 @@ function PageContent(props) {
                 <div className="page_content_header"> <h3>{pagename}</h3> </div>
                 <div className="page_content_flexbox">
                     <div className="page_content_prev" onClick={decrementCount}>
-                        <img className="page_content_icon" alt="" src={require("../assets/next-arrow.svg")} ></img>
+                        <img className="page_content_icon" alt="" src="/assets/next-arrow.svg" ></img>
                     </div>
                     <div className="page_content_data_container">
                         <div className="page_content_data" hidden={imgView}>
@@ -33,24 +42,16 @@ function PageContent(props) {
                             {datas[subPagenum].content}
 
                         </div>
-                        {
-                            datas.map((element,index) => {
-                                var isHidden =false ;
-                                if(!imgView){
-                                    isHidden = (index!=subPagenum);
-                                }
-                                var activePage = subPagenum + 3 < subLen? subPagenum : subLen-3;
-                                if(index>=activePage && index<activePage+3)
-                                    return (
-                                    <div className="page_content_image" hidden={isHidden} onClick={()=>subImageClick(index)}>
-                                        <img src={"/assets/"+element.pics} alt=""></img>
-                                    </div>);
-                            })
+                        {   imgView?[...Array(3).keys()].map((element, index) => {
+                                var activePage = (subPagenum + index )% subLen;
+                                return getPics(activePage)
+                            }): getPics(subPagenum)
                         }
+                        
                     </div>
 
                     <div className="page_content_next" onClick={incrementCount}>
-                        <img className="page_content_icon" src={require("../assets/next-arrow.svg")} alt=""></img>
+                        <img className="page_content_icon" src="/assets/next-arrow.svg" alt=""></img>
                     </div>
                 </div>
 
