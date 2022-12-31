@@ -53,6 +53,21 @@
 .page_content_icon{
     width: 20px;
 }
+.page_content_header{
+    display: flex;
+}
+.page_content_header >h3{
+    flex: 2;
+}
+.page_content_header_icons img{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+.disabledIcon{
+    filter:opacity(0.6)
+}
+
 /* ------- checkbox theme selector ------------ */
 .checkbox {
     opacity: 0;
